@@ -1,0 +1,21 @@
+<p>forecast works!</p>
+
+<h2>
+{{weather.name | uppercase}} Details
+</h2>
+
+<div>
+    <span>
+        location: 
+    </span>
+    {{response.latitude}}, {{response.longitude}}
+</div>
+
+<div>
+    <span>
+        temperature: 
+    </span>
+    {{response.temperature}}
+</div>
+
+<app-forecast></app-forecast>
